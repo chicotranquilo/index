@@ -4,6 +4,26 @@
 }
 
 .container {
-    width: 15em;
+    width: 18em;
+    margin-top: 19vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 01.5em;
+    padding: 1.5em;
+    border-radius: 11px;
     background-color:  hsl(216, 50%, 16%);
+}
+
+.img {
+    border-radius: 0.8em;
+}
+
+.img, .img ~ p {
+    margin-bottom: 0.5em;
+}
+
+.equilibrium {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
 }
