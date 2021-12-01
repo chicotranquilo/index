@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 19em;
+    max-width: 19em;
     margin-top: 19vh;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +21,7 @@
 }
 
 .img, .img ~ p {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .equilibrium {
@@ -39,6 +39,43 @@
 }
 
 .icon {
-    margin-left: 6.5em;
-    /* display: inline; */
+    margin-left: 4.3em;
+}
+
+.clock, .cripto {
+    margin-right: 0.3em;
+    vertical-align: sub;
+}
+
+.break {
+    width: auto;
+    height: 0.1em;
+    background-color:   hsl(215, 32%, 27%);
+    margin-bottom: 1em;
+}
+
+.avatar {
+    width: 12%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.avatar + p {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 0.5em;
+}
+
+
+.white {
+    color: white;
+}
+
+.white:hover {
+    text-transform: uppercase;
+}
+
+.attribution > a:hover {
+    color: aqua;
+    text-transform: uppercase;
 }
