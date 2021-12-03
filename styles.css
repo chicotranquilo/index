@@ -20,6 +20,10 @@
     border-radius: 0.8em;
 }
 
+.img:hover {
+    filter: hue-rotate(120deg);
+}
+
 .img, .img ~ p {
     margin-bottom: 1em;
 }
@@ -27,7 +31,11 @@
 .equilibrium {
     font-size: 1.2rem;
     font-weight: 400;
-    color: white;
+    
+}
+
+.equilibrium:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .distancia {
@@ -44,7 +52,7 @@
 
 .clock, .cripto {
     margin-right: 0.3em;
-    vertical-align: sub;
+    line-height: 2em;
 }
 
 .break {
@@ -72,6 +80,7 @@
 
 .white:hover {
     text-transform: uppercase;
+    color: hsl(178, 100%, 50%);
 }
 
 .attribution > a:hover {
